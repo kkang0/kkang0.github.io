@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <h1>안녕하세요!</h1>
+    <h1>
+      "성장하는 개발자"
+      <span style="color: rgb(6, 190, 83)">강정윤</span>입니다
+    </h1>
+    <div id="intro" style="text-align: center">
+      ✨개발자로서의 성장과정을 담은 저의 포트폴리오를 소개합니다✨
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+      <div class="card">
+        <img class="card_img" src="./img/myPhoto.png" />
+        <p class="card_title">자기소개</p>
+        <input
+          class="card_button"
+          type="button"
+          value="바로가기"
+          onclick="location.href='./myInfo.html'"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img" src="./img/myProject.png" />
+        <p class="card_title">프로젝트 소개</p>
+        <input
+          class="card_button"
+          type="button"
+          value="바로가기"
+          onclick="location.href='./projectIntro.html'"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img" src="./img/file_icon.jpeg" />
+        <p class="card_title">프로그래머스 프로젝트</p>
+        <input
+          class="card_button"
+          type="button"
+          value="바로가기"
+          onclick="location.href='./programmers_project.html'"
+        />
+      </div>
+    </div>
+  </body>
+</html>
